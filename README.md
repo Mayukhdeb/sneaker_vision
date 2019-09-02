@@ -4,18 +4,18 @@ scrapes google images -> normalises them -> feeds into NN -> NN trains itself to
 ***WARNING*** - this is still a work in progress 
 
 #### web scraping :
-  * working but still stuck in the issue where I cannot get more than 20 images at once
+  * working but still stuck on the issue where I cannot get more than 20 images at once
   * Will work on a possible solution thanks to @vchrombie
 
 #### Normalising data :
-  * works fine, converts images to 100*100 size, you can tweak it to your fancy.    
+  * Works fine, converts images to 100*100 size, you can tweak it to your fancy.    
   
 #### sneakernet  :
-  * still a work in progress. The model is training but isn't the most optimized thning you'll see. And it's struggling with the small 200 image dataset provided. This model is made from scratch, hoping to make it better in the coming weeks.
+  * Still a work in progress. The model is training but isn't the most optimized thning you'll see. And it's struggling with the small 200 image dataset provided. This model is made from scratch, hoping to make it better in the coming weeks.
   
-#### next objective :
+### next objective :
   
-  * make the web scraping experience better by enter "google searches" instead of shoving in URLs copied from browsers into functions
+  * Make the web scraping experience better by enter "google searches" instead of shoving in URLs copied from browsers into functions
   
   * optimize the CNN by tweaking the hyperparameters and experimenting between Adam and SGD optimizer
   
@@ -28,5 +28,5 @@ scrapes google images -> normalises them -> feeds into NN -> NN trains itself to
  * The model will then be able to classify between "sunflowers" and "bananas, 
  While the user did nothing but just type in the two categories to be classified between. 
  
- its called sneakernet because I first thought of it while browsing nike's website
+ It's called sneakernet because I first thought of it while browsing nike's website
 
