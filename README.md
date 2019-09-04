@@ -8,7 +8,7 @@ scrapes google images -> normalises them -> feeds into NN -> NN trains itself to
 * Enter the keywords, wait for it to scrape and process the images
 * Enter the number of epochs (no. of times the CNN will have to go through the whole dataset) and wait for it to train
 * After training, enter the path ( or name if in the same folder of the image to be classified 
-(example - enter "<folder>/doggo.png") 
+(example - enter "doggo.png") 
 * Pray that it works fine. 
 Side note - only supports .png files as of now because I'm too lazy to make it work on .jpg
 
