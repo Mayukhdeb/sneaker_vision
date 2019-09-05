@@ -1,7 +1,7 @@
 # sneaker_vision #
 scrapes google images -> normalises them -> feeds into NN -> NN trains itself to classify 
 
-***improvements made in the current version
+***improvements made in the current version***
 
 * making folders like alpha and beta are not required anymore
 * visualises the loss function going down through the training using matplotlib
