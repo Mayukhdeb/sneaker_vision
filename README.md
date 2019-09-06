@@ -10,7 +10,7 @@ scrapes google images -> normalises them -> feeds into NN -> NN trains itself to
 
 ***Instructions***
  
-* In sneakernet_final_package.ipynb, run cell 1 and then cell 2 
+* In sneaker_vision.ipynb, run cell 1 and then cell 2 
 * Enter the keywords, wait for it to scrape and process the images
 * Enter the number of epochs (no. of times the CNN will have to go through the whole dataset) and wait for it to train
 * After training, enter the path ( or name if in the same folder of the image to be classified 
