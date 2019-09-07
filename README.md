@@ -31,13 +31,11 @@ Side note - only supports .png files as of now because I'm too lazy to make it w
   * Works fine, converts images to 100*100 size, you can tweak it to your fancy.    
   
 #### sneakernet  :
-  * Still a work in progress. The model is training but isn't the most optimized thning you'll see. And it's struggling with the small 200 image dataset provided. This model is made from scratch, hoping to make it better in the coming weeks.
+  * Still a work in progress. The model is training but isn't the most optimized thning you'll see. And it's struggling with the small  dataset provided. This model is made from scratch, hoping to make it better in the coming weeks.
   
 ### next objective :
   
-  * Make the web scraping experience better by enter "google searches" instead of shoving in URLs copied from browsers into functions
-  
-  * optimize the CNN by tweaking the hyperparameters and experimenting between Adam and SGD optimizer
+  * RGB input
   
   
 ## Final vision  :
