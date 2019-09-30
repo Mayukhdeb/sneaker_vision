@@ -1,7 +1,9 @@
-# sneaker_vision #
-scrapes google images -> normalises them -> feeds into NN -> NN trains itself to classify 
+# sneaker_vision :mag_right: #
+It works by executing the following steps:-
 
-***improvements made in the current version***
+ It scrapes google images -> Then it normalises them -> After that it feeds those images into NN -> Then the NN trains itself to classify between two samples.
+
+:bulb:***improvements made in the current version*** 
 
 * making folders like alpha and beta are not required anymore
 * visualises the loss function going down through the training using matplotlib
@@ -21,7 +23,7 @@ Side note - only supports .png files as of now because I'm too lazy to make it w
 >> HMU if you face any issue(s) / have any ideas to improve this project, or if you just want to tell me how it was.
 
 
-***WARNING*** - this is still a work in progress 
+***WARNING*** - :warning: this is still a work in progress :warning:
 
 #### web scraping :
   * working but still stuck on the issue where I cannot get more than 20 images at once
@@ -38,7 +40,7 @@ Side note - only supports .png files as of now because I'm too lazy to make it w
   * RGB input
   
   
-## Final vision  :
+## :barber: Final vision :barber: :
  * Will make a nicely arranged pack where the user would just enter two keywords like "sunflower" and "banana"
  And the scraper will download 2000 images of each category and normalise them.
  Then feed them to the CNN and train it. 
